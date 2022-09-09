@@ -65,8 +65,8 @@ function App() {
                 </nav>
 
 
-                <div className="relative" id="home" style={{ width: "100%", height: "100%" }}>
-                    <Spline scene="https://prod.spline.design/M2JfYJd4NyyuE3TL/scene.splinecode" />
+                <div className="relative" id="home" style={{ width: "1500px", height: "1000px" }}>
+                    <Spline scene="https://prod.spline.design/M2JfYJd4NyyuE3TL/scene.splinecode" style={{ width: "100%", height: "100%" }} />
                     <div className="absolute bottom-10 w-full items-center justify-center flex">
                         <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl">
                             <p className="text-textBase">Press and drag to orbit</p>
